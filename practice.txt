@@ -1,0 +1,15 @@
+ALTER TABLE `students` ADD `test` VARCHAR(255) NOT NULL AFTER `Address`;
+
+ALTER TABLE 'students' ADD 'test' VARCHAR NOT NULL AFTER 'Address';
+
+
+ALTER TABLE students 
+MODIFY Address VARCHAR NOT NULL;
+
+
+update Student(Email)
+values ("new@email.com")
+where Email = null
+
+update Student set Email = "working@gmail.com"
+where Name = 0;
