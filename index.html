@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #para{
+            background-color: rgb(184, 195, 199);
+            width: 1000px;
+            height: 100px;
+            margin: 0 auto;
+            padding: 10px;
+            border: 1px solid black;
+            border-radius: 10px;
+
+        }
+        .data{
+            background-color: rgb(184, 195, 199);
+            width: 1000px;
+            height: 100px;
+            margin: 0 auto;
+            padding: 10px;
+            border: 1px solid black;
+            border-radius: 10px;
+
+        }
+    </style>
+
+
+</head>
+<body>
+    <h1>Copy Text</h1>
+    <hr>
+    
+
+ 
+    <p id="para">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam placeat totam provident, qui officiis cum velit voluptatibus molestias asperiores magni mollitia architecto commodi tempore earum nobis dolorum, doloremque obcaecati aperiam.
+
+
+    </p>
+    <hr>
+    <div class="data">
+
+    </div>
+
+    <script>
+        var para = document.getElementById("para");
+        var data = document.querySelector(".data");
+        data.innerHTML = para.innerHTML;
+    </script>
+
+    
+</body>
+</html>
